@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    adminn:
+      email: admin@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Arpit Mishra
+      password: abc # Will be hashed automatically
+    wowmn:
+      email: wowmn@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: WOW MAN
+      password: def # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: "good" # Must be string
+  name: 'goodness'
+pre-authorized:
+  emails:
+  - melsby@gmail.com
