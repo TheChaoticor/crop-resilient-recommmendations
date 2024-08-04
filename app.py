@@ -12,7 +12,7 @@ def get_base64_image(image_path):
 st.markdown("<h1 style='color: #4CAF50;'>Climate-Resilient Crop Advisory System</h1>", unsafe_allow_html=True)
 
 # Add a background image with a transparent overlay
-background_image = get_base64_image("C:/Users/HP/PycharmProjects/crop resilient recommmendations/pexels-souvenirpixels-414612.jpg")
+background_image = get_base64_image("pexels-souvenirpixels-414612.jpg")
 st.markdown(
     f"""
     <style>
